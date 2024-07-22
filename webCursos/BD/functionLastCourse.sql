@@ -1,0 +1,10 @@
+DELIMITER //
+CREATE FUNCTION Function_getLastIdCourse()
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    DECLARE idCourse INT;
+    SET idCourse = (SELECT idCurso FROM Cursos ORDER BY idCurso DESC LIMIT 1);
+	RETURN (idCourse);
+END //
+DELIMITER ;

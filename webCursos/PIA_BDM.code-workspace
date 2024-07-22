@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "PIA_BDM",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PIA_BDM"
+	}
+}

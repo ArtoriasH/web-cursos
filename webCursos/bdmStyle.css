@@ -1,0 +1,79 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#toytiste{
+    transition: all .2s ease-in-out; 
+}
+
+#toytiste:hover{
+    transform: scale(1.1); 
+}
+
+.gray-container-center{
+    background-color:#f2f2f2; 
+    width: 30vw;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.chats{
+    width: 40%;
+    margin: 1%;
+    background-color: #d5bee6;
+    border:none;
+    display:flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.gray-container-wth-Clmns{
+    width: 100%; 
+    display: flex; 
+    flex-direction:row;
+    align-items:center;
+    padding: 0 1%;
+    margin-bottom: 10px;
+    background-color:#e8e8e8;
+    border:none;
+    border-radius: 5px;
+}
+
+.gray-container-wth-Clmns p{
+    margin: 0;
+    padding: 0;
+}
+
+.gray-container-wth-rows{
+    width: 60%; 
+    display: flex; 
+    flex-direction:column;
+
+    padding: 0 1%;
+    margin-bottom: 10px;
+    background-color:#e8e8e8;
+    border:none;
+    border-radius: 5px;
+}
+
+.gray-container-wth-rows p{
+    margin: 0;
+    padding: 0;
+}
+
+.msg-bubble-sender{
+    background-color: #673296;
+    width: 300px;
+    height: 50px;
+}
+
+.notiendo{
+    height: 250px;
+    width: 250px;
+    background-color:#f2f2f2;
+    margin:1%
+}
+
